@@ -1,3 +1,27 @@
+/*Global*/
+body {
+  margin: 0;
+  padding: 0;
+}
 
+/*Header*/
+.logo h2 {
+  display: inline-block;
+  color: gold;
+  font-family: "Square Peg", cursive;
+  font-size: 42px;
+  margin-left: 20%;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.menu ul {
+  list-style-type: none;
+  align-content: center;
+}
+.menu a {
+  text-decoration: none;
+  margin-left: 5px;
+  font-family: "Oswald", sans-serif;
+  color: #000;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBQ0E7RUFDSSxTQUFBO0VBQ0EsVUFBQTtBQ0NKOztBRENBLFNBQUE7QUFHSTtFQUNJLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGtDQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDQVI7O0FES0k7RUFDSSxxQkFBQTtFQUNBLHFCQUFBO0FDRlI7QURJSTtFQUNJLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQ0FBQTtFQUNBLFdBQUE7QUNGUiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

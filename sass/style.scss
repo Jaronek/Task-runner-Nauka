@@ -1,0 +1,30 @@
+/*Global*/
+body {
+    margin: 0;
+    padding: 0;
+}
+/*Header*/
+
+.logo {
+    h2 {
+        display: inline-block;
+        color: gold;
+        font-family: 'Square Peg', cursive;
+        font-size:42px;
+        margin-left: 20%;
+    }
+}
+
+.menu {
+    ul {
+        list-style-type: none;
+        align-content: center;
+    }
+    a {
+        text-decoration: none;
+        margin-left: 5px;
+        font-family: 'Oswald', sans-serif;
+        color: #000;
+    }
+}
+
