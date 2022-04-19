@@ -10,18 +10,39 @@ body {
   color: gold;
   font-family: "Square Peg", cursive;
   font-size: 42px;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 
 .menu ul {
   list-style-type: none;
-  align-content: center;
+  align-items: center;
 }
-.menu a {
-  text-decoration: none;
-  margin-left: 5px;
+.menu li {
+  margin: 0 auto 0 0;
   font-family: "Oswald", sans-serif;
   color: #000;
 }
+.menu a {
+  text-decoration: none;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBQ0E7RUFDSSxTQUFBO0VBQ0EsVUFBQTtBQ0NKOztBRENBLFNBQUE7QUFHSTtFQUNJLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGtDQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDQVI7O0FES0k7RUFDSSxxQkFBQTtFQUNBLHFCQUFBO0FDRlI7QURJSTtFQUNJLHFCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxpQ0FBQTtFQUNBLFdBQUE7QUNGUiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*Splash*/
+.splash {
+  margin-top: 20%;
+}
+
+.splash-inner .splash-title {
+  display: block;
+  text-align: center;
+}
+.splash-inner .splash-sub-title {
+  text-align: center;
+}
+.splash-inner a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBQ0E7RUFDSSxTQUFBO0VBQ0EsVUFBQTtBQ0NKOztBRENBLFNBQUE7QUFHSTtFQUNJLHFCQUFBO0VBQ0EsV0FBQTtFQUNBLGtDQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDQVI7O0FES0k7RUFDSSxxQkFBQTtFQUNBLG1CQUFBO0FDRlI7QURLSTtFQUNJLGtCQUFBO0VBQ0EsaUNBQUE7RUFDQSxXQUFBO0FDSFI7QURNSTtFQUNJLHFCQUFBO0FDSlI7O0FEUUEsU0FBQTtBQUNBO0VBQ0ksZUFBQTtBQ0xKOztBRFNJO0VBQ0ksY0FBQTtFQUNBLGtCQUFBO0FDTlI7QURRSTtFQUNJLGtCQUFBO0FDTlI7QURRSTtFQUNJLGNBQUE7RUFDQSxrQkFBQTtFQUNBLHFCQUFBO0VBQ0EsV0FBQTtBQ05SIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

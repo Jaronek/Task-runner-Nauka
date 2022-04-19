@@ -11,20 +11,44 @@ body {
         color: gold;
         font-family: 'Square Peg', cursive;
         font-size:42px;
-        margin-left: 20%;
+        margin-left: 10%;
     }
 }
 
 .menu {
     ul {
         list-style-type: none;
-        align-content: center;
+        align-items: center;
     }
-    a {
-        text-decoration: none;
-        margin-left: 5px;
+
+    li {
+        margin: 0 auto 0 0;
         font-family: 'Oswald', sans-serif;
         color: #000;
     }
+
+    a {
+        text-decoration: none;
+    }
 }
 
+/*Splash*/
+.splash {
+    margin-top: 20%;
+}
+
+.splash-inner {
+    .splash-title {
+        display: block;
+        text-align: center;
+    }
+    .splash-sub-title {
+        text-align: center;
+    }
+    a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+    }
+}
