@@ -94,8 +94,7 @@ body {
     .service-title {
         text-align: center;
         font-family: 'Oswald', sans-serif;
-        margin-top: 96px;
-        margin-bottom: 40px;
+        margin: 96px 0 40px 0;
     }
     .service-card {
         text-align: center;
@@ -110,6 +109,31 @@ body {
         }
         h3, p{
             font-family: 'Oswald', sans-serif;
+        }
+    }
+}
+
+/*Portfolio*/ 
+
+.portfolio {
+    .portfolio-title {
+        text-align: center;
+        margin: 96px 0 40px 0;
+        font-family: 'Oswald', sans-serif;
+    }
+    .portfolio-card {
+        img {
+            height: 200px;
+        }
+        h2, p {
+            text-align: center;
+            font-family: 'Oswald', sans-serif;
+        }
+        h2 {
+            margin: 0;
+        }
+        p {
+            margin: 0 0 20px 0;
         }
     }
 }
