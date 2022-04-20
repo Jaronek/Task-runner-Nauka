@@ -1,17 +1,28 @@
 /*Global*/
+
+$primeColor: #FFF;
+$shadowColor: #000;
+
 body {
     margin: 0;
     padding: 0;
+    background-color: $shadowColor;
 }
-/*Header*/
 
+/*Header*/
+.background {
+    background-image: url("https://i.postimg.cc/1Xzr3M6p/pexels-jessica-lewis-creative-593319.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .logo {
     h2 {
         display: inline-block;
         color: gold;
         font-family: 'Square Peg', cursive;
-        font-size:42px;
+        font-size:52px;
         margin-left: 10%;
+        text-shadow: 0 0 5px $primeColor;
     }
 }
 
@@ -24,11 +35,15 @@ body {
     li {
         margin: 0 auto 0 0;
         font-family: 'Oswald', sans-serif;
-        color: #000;
     }
 
     a {
         text-decoration: none;
+        color: $primeColor;
+        text-shadow: 0 0 3px $shadowColor;
+    }
+    a:hover {
+        color: #bdc3c7;
     }
 }
 
@@ -38,17 +53,32 @@ body {
 }
 
 .splash-inner {
+    padding-bottom: 50px;
+    text-align: center;
     .splash-title {
         display: block;
-        text-align: center;
+        color: $primeColor;
+        text-shadow: 0 0 3px $shadowColor;
+        font-size: 22px;
     }
     .splash-sub-title {
-        text-align: center;
+        color: $primeColor;
+        text-shadow: 0 0 3px $shadowColor;
+        font-size: 28px;
     }
     a {
-        display: block;
+        display: inline-block;
         text-align: center;
+        padding: 15px;
         text-decoration: none;
-        color: #000;
+        color: $primeColor;
+        text-shadow: 0 0 4px $shadowColor;
+        background-color: gold;
+        color: $primeColor;
+        border-radius: 15%;
+    }
+    
+    a:hover {
+        background-color: #f1c40f;
     }
 }
