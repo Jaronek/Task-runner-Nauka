@@ -137,3 +137,27 @@ body {
         }
     }
 }
+
+/*footer*/
+
+footer {
+    .copyrights {
+        order: 2;
+        text-align: center;
+    }
+    .icons {
+        font-size: 22px;
+        margin: 60px auto 0 auto;
+        order: 1;
+        i{
+            background-color: #000;
+            color: #FFF;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 100%;
+            text-align: center;
+        }
+    }
+
+}
