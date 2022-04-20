@@ -48,6 +48,7 @@ body {
 }
 
 /*Splash*/
+
 .splash {
     margin-top: 20%;
 }
@@ -59,12 +60,15 @@ body {
         display: block;
         color: $primeColor;
         text-shadow: 0 0 3px $shadowColor;
-        font-size: 22px;
+        font-size: 32px;
+        letter-spacing: 3px;
+        font-family: 'Square Peg', cursive;
     }
     .splash-sub-title {
         color: $primeColor;
         text-shadow: 0 0 3px $shadowColor;
         font-size: 28px;
+        font-family: 'Oswald', sans-serif;
     }
     a {
         display: inline-block;
@@ -76,9 +80,35 @@ body {
         background-color: gold;
         color: $primeColor;
         border-radius: 15%;
+        font-family: 'Oswald', sans-serif;
     }
     
     a:hover {
-        background-color: #f1c40f;
+        background-color: #f9cb24;
+    }
+}
+
+/*Service*/
+.services {
+    .service-title {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        margin-top: 96px;
+        margin-bottom: 40px;
+    }
+    .service-card {
+        text-align: center;
+        i {
+            color: #f9ca24;
+            font-size: 30px;
+            width: 60px;
+            height: 60px;
+            border:2px solid #f9ca24;
+            border-radius: 50%;
+            line-height: 60px;
+        }
+        h3, p{
+            font-family: 'Oswald', sans-serif;
+        }
     }
 }
