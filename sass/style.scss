@@ -141,14 +141,14 @@ body {
 /*footer*/
 
 footer {
+    margin: 96px 0 0 0;
     .copyrights {
-        order: 2;
         text-align: center;
+        padding: 0 0 0 20%;
     }
     .icons {
         font-size: 22px;
-        margin: 60px auto 0 auto;
-        order: 1;
+        text-align: center;
         i{
             background-color: #000;
             color: #FFF;
@@ -157,7 +157,9 @@ footer {
             line-height: 40px;
             border-radius: 100%;
             text-align: center;
+            
         }
     }
-
 }
+
+/*media*/
